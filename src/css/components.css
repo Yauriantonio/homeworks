@@ -1,0 +1,32 @@
+
+
+
+/* IMPORTANDO ESTILOS DE FORMA DINÁMICA. */
+
+h1 {
+    color: blueviolet;
+}
+
+/* Documentacion oficial 
+
+Instalamos los estilos.
+
+https://webpack.js.org/loaders/css-loader/
+
+* npm install --save-dev css-loader
+* yarn add -D css-loader
+* pnpm add -D css-loader
+
+https://webpack.js.org/loaders/style-loader/
+
+* npm install --save-dev style-loader
+* yarn add -D style-loader
+* pnpm add -D style-loader
+
+Instala las dos dependencias al mismo tiempo.
+
+* npm install --save-dev css-loader style-loader
+
+*/
+
+/* CREANDO UN ARCHIVO DE ESTILOS DE FORMA GLOBAL EN LA APLICACIÓN */

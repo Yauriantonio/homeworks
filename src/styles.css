@@ -1,0 +1,25 @@
+/* CREANDO UN ARCHIVO DE ESTILOS DE FORMA GLOBAL EN LA APLICACIÓN */
+
+/* 
+
+El siguiente plugin es para poder importar el archivo css a la carpeta dist y vincule css con el HTML.
+ - npm install --save-dev mini-css-extract-plugin - Agrega un enlace en el HTML del CSS.*/
+
+html, body {
+    margin: 0;
+    background-color: rgb(198, 128, 170);
+}
+
+img {
+    width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
