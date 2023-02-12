@@ -77,7 +77,7 @@ sessionStorage .setItem('my-key', 'Ad rgdr34');
 
     // newTodo.imprimirClase(); 
 
-console.log( 'todos', todoList.todos ); // Solo para fines ilustrativos en la consola.
+//console.log( 'todos', todoList.todos ); // Solo para fines ilustrativos en la consola.
 // Este es un inconveniente porque, todos sus métodos se pierden, las propiedades no se pierden, 
 // por qué son almacenadas en el - localSrage - mediante el - JSON.Stringifi -.
 // Para estó se creá una nueva instancia en - todo.class.js -
