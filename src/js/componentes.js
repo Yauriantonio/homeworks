@@ -144,21 +144,21 @@ btnEliminar.addEventListener('click', () => {
     event.target.classList.add('selected');// Y con esto se mueve el recuadro del botón al seleccionarlo al hacer click.
 
     for( const elemento of divTodoList.children ) {
-    // console.log( elemento ); // Podemos observar como al presionar un botón tiene los datos del - todo -
+//     console.log( elemento ); // Podemos observar como al presionar un botón tiene los datos del - todo -
     elemento.classList.remove('hidden'); // Tenemos que remover la clase hidden que tenemos eventualmente
     const completado = elemento.classList.contains('completed'); // Por que puede que seleccione otro botón y se necesita tener la clase limpia..
-// Después reguntamos sí, el registro está completado.
+// Después preguntamos sí, el registro está completado.
 // Sólo falraría mostrar si se requieren los completados ó no.
 // Para eso se útiliza un switch, por que queremos hacer varias evaluaciónes,
 // mediante el filtro que pueden ser completado, todos ó pendientes.
     switch( filtro ){// En el caso que seán - Pendientes - quiere decir que a todos los que están completados,
-       case 'Pendientes': // les tiene que agregar la clase - hidden -
+       case 'Pending': // les tiene que agregar la clase - hidden -
         if( completado ) {
           elemento.classList.add('hidden');
         }
         break;
 
-        case 'Completados': // Se hace lo mismo pero con los completados.
+        case 'Completed': // Se hace lo mismo pero con los completados.
         if( !completado ) { // Sólo que se pregunta lo opuesto.
           elemento.classList.add('hidden');
         }
