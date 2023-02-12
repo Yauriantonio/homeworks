@@ -1,16 +1,16 @@
-# WebPack Starter
+# Tasks
 
 
-Este es el proyecto inicial para crear aplicaciones utilizando webpack.
+This is a list of tasks, add, select and delete the completed tasks.
 
-### Notas:
+### Note:
 
-recuerden construir los modulos de NODE
+Remember rebuild the NODE modules.
 ```
 npm install
 ```
 
-Y para construir el build, recuerden:
+And to build the build, remember:
 ```
 npm run build
 ```
